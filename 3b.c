@@ -2,20 +2,20 @@
 
 int main()
 {
-  int a[50],i,n,max;
+  int a[50],j,m,max;
   printf("enter the number");
   scanf("%d",&n);
   printf("enter the array values");
-  for(i=0;i<n;i++)
+  for(j=0;j<m;j++)
   {
       scanf("%d",&a[i]);
   }
   max=a[0];
-  for(i=0;i<n;i++)
+  for(j=0;j<n;j++)
   {
-  if(a[i]>max)
+  if(a[j]>max)
   {
-      max=a[i];
+      max=a[j];
   }
   }
   printf("%d",max);
